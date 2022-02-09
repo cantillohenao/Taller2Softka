@@ -8,12 +8,12 @@ public abstract class Spaceships implements ISpaceShips {
     /**
      * Class attributes
      */
-    private String type;
-    private String name;
-    private long speed;
-    private float height;
-    private float weight;
-    private String typeFuel;
+    protected String type;
+    protected String name;
+    protected long speed;
+    protected float height;
+    protected float weight;
+    protected String typeFuel;
 
     /**
      * constructor initializing with the following parameters

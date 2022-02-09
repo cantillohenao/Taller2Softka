@@ -1,6 +1,6 @@
 package domain;
 
-public class Gemini extends MannedShips{
+public class LunarModule extends MannedShips{
     /**
      * constructor initializing with the following parameters
      *
@@ -11,7 +11,7 @@ public class Gemini extends MannedShips{
      * @param weight   weight of the spaceships
      * @param typeFuel typeFuel of the spaceships
      */
-    public Gemini(String type, String name, long speed, float height, float weight, String typeFuel) {
+    public LunarModule(String type, String name, long speed, float height, float weight, String typeFuel) {
         super(type, name, speed, height, weight, typeFuel);
     }
 }
